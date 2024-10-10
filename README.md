@@ -1,3 +1,6 @@
+Here’s the updated README with the "View Project Details" section added:
+
+---
 
 # Service Provider with AWS PrivateLink
 
@@ -18,6 +21,7 @@ In this project, I created a service provider VPC that exposes services via AWS 
 ### Architecture
 
 The architecture of this project includes the following components:
+
 1. **Service Provider VPC**: Contains the application hosted on EC2 instances behind a Network Load Balancer.
 2. **VPC Endpoint**: Configured in the client VPC to privately connect to the service provider’s Network Load Balancer.
 3. **PrivateLink**: Ensures secure, low-latency access from the client VPC to the service provider’s application.
@@ -52,4 +56,9 @@ Through this project, I gained practical experience in:
 ## Acknowledgments
 
 This project was completed as part of the **Digital Cloud Training** bootcamp. 
-![Screenshot 2024-04-12 201516](https://github.com/user-attachments/assets/ef8c2254-6347-46ed-b709-3cafbbae0fbc)
+
+## View Project Details
+
+You can view the project details [here](https://awsportfolio.sila.studio/project/service-provider-with-private-link/).
+
+![Screenshot 2024-04-12 201516](https://github.com/user-attachments/assets/178ac9bc-be6a-47f8-9d85-f48347128bad)
